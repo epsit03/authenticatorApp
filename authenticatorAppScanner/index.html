@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Authenticator Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/html5-qrcode/minified/html5-qrcode.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/otp-browser@1.1.0/dist/otp.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Authenticator Dashboard</h1>
+    <div id="main-content">
+      <!-- QR Code Scanner -->
+      <div id="qr-reader" class="qr-reader"></div>
+      <button id="start-scan">Start QR Scan</button>
+    </div>
+    
+    <!-- Sidebar for Displaying TOTPs -->
+    <aside id="totp-dashboard">
+      <h2>Saved TOTPs</h2>
+      <div id="totp-list">
+        <!-- List of TOTPs will be dynamically inserted here -->
+      </div>
+    </aside>
+  </div>
+  
+  <script type="module" src="app.js"></script>
+</body>
+</html>
