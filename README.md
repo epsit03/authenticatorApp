@@ -1,6 +1,5 @@
 # Google Authenticator Clone
-
-A Python-based implementation of a Time-based One-Time Password (TOTP) authenticator similar to Google Authenticator. This app generates QR codes that can be scanned into authenticator apps like Google Authenticator to verify users via 6-digit codes.
+The primary idea was to implement a Time-Based One-Time Password (TOTP) generator based on the RFC 6238 standard. So, here's a Python-based implementation of a Time-based One-Time Password (TOTP) authenticator similar to Google Authenticator. This app generates QR codes that can be scanned into authenticator apps like Google Authenticator to verify users via 6-digit codes.
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -11,7 +10,6 @@ A Python-based implementation of a Time-based One-Time Password (TOTP) authentic
 - [Project Structure](#project-structure)
 - [Flow of Code](#flow-of-code)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
